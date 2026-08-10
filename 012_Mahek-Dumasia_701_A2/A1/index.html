@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My React Assignment</title>
+
+    <!-- React CDN Links -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body style="font-family: Arial; margin: 0; padding: 0;">
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        // Component 1: Simple Navigation Bar
+        function Navbar() {
+            return (
+                <div style={{ background: '#222', color: 'white', padding: '15px' }}>
+                    <h2>My Website</h2>
+                </div>
+            );
+        }
+
+        // Component 2: Simple Contact Info Card
+        function ContactCard() {
+            return (
+                <div style={{ border: '1px solid black', margin: '20px', padding: '15px', width: '250px' }}>
+                    <h3>Contact Info</h3>
+                    <p>Name: Mr. XYZ</p>
+                    <p>Email: xyz@example.com</p>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Sem: 7</p>
+                    <p>Course: M.Sc.IT</p>
+                </div>
+            );
+        }
+
+        // Main App Component
+        function App() {
+            return (
+                <div>
+                    <Navbar />
+                    <ContactCard />
+                </div>
+            );
+        }
+
+        // Render everything to the screen
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+
+    </script>
+</body>
+</html>

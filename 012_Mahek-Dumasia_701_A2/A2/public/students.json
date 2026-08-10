@@ -1,0 +1,6 @@
+[
+  { "id": 1, "firstName": "Aarav", "semester": "Sem 3", "div": "A", "gender": "Male" },
+  { "id": 2, "firstName": "Diya", "semester": "Sem 5", "div": "B", "gender": "Female" },
+  { "id": 3, "firstName": "Rohan", "semester": "Sem 3", "div": "A", "gender": "Male" },
+  { "id": 4, "firstName": "Ananya", "semester": "Sem 5", "div": "A", "gender": "Female" }
+]
